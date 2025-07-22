@@ -1,0 +1,56 @@
+<html lang="en" style="--vh: 6.42px;"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te amo</title>
+  <link rel="icon" type="image/png" href="/heart.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "three/addons/controls/OrbitControls.js": "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js",
+        "three/examples/jsm/loaders/FontLoader.js": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/FontLoader.js",
+        "three/examples/jsm/geometries/TextGeometry.js": "https://unpkg.com/three@0.152.2/examples/jsm/geometries/TextGeometry.js"
+      }
+    }
+  </script>
+</head>
+
+<body class="intro-started">
+  <div id="container" style="height: 642px;">
+    
+
+    
+
+    <div id="landscape-warning">
+      <div class="warning-content">
+        <div class="rotate-icon"></div>
+        <h1>Love</h1>
+        <h1>Planeta</h1>
+        <p style="font-size: 0.6em;">Por favor, gire el planeta para un  lado!</p>
+        <p style="font-size: 0.6em;">clic para abrir el planeta</p>
+        <div class="stars-bg"></div>
+      </div>
+    </div>
+
+    <div id="dark-overlay"></div>
+    <div id="info"></div>
+
+  <canvas data-engine="three.js r152" width="807" height="642" style="display: block; width: 807px; height: 642px; touch-action: none;"></canvas></div>
+  <script>
+    window.dataLove2Loveloom = {
+      template: "galaxy",
+      data: {
+        keychain: { name: "ILove", phone: "ILove", address: "ILove" },
+        ringTexts: ["My love"],
+      }
+    };
+  </script>
+
+  <script src="script.js"></script>
+  <script type="module" src="galaxy.js"></script>
+
+
+</body></html>
